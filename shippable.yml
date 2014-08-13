@@ -1,6 +1,5 @@
 language: python
 
-build_environment: ubuntu1310
 
 python:
   - 2.7
