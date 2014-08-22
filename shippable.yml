@@ -11,6 +11,9 @@ services:
 install:
   - pip install -r requirements.txt
 
+env:
+ secure: avzHKWEiOtuKAHOzlWDVwlX51x13EbfLkERuxNw4TnTIhfoqOKweYgxxOSaeKmKYrQYXnuRiQ3ed5oG6SbOmGIJwp73jpWHpoxDqnyGjcUJCmYDQMU35whEZEjhfEvazR9fgfzzVsA0JOmRFBy8aItfvz10tuUJYfg7q4znA2VSdP6NCPruW8ZEKLOalaa4JS02UsQbkFMUO1Ryc7abwyaBdaiogQM5RJrNMV+UY5+owfLYWL7RFGBcaf5q8hlqVjqIVn8mCU7rukqSRqDNK/bVdLKC2v1FNm5ITuVCiIEfhweZPzohUWUe270hwn3G8A+LsTrn8JzvIButa/9bk5A==
+
 # Make folders for the reports
 before_script:
   - mkdir -p shippable/testresults
@@ -20,6 +23,7 @@ script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
+  - echo $foo
   
 notifications:
   email: false
