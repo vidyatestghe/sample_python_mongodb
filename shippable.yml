@@ -24,6 +24,6 @@ branches:
     - master
     
 after_success:
-  - git push git@heroku.com:buildsample.git master
+  - git push git@heroku.com:sample-python-mongodb.git $BRANCH
 
 archive: true
