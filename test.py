@@ -8,7 +8,7 @@ class TestSuite(unittest.TestCase):
         mongo = Mongo()
         mongo.populate()
         things = mongo.count()
-        self.failIf(things != 5)
+        self.failIf(things != 15)
 
 
 def main():
