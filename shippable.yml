@@ -13,6 +13,7 @@ env:
  global:
   - secure: GO7SuUcHjRrGy2mE2OJ6RxaM0faUUtqsVqgsRHf3LUgS3YO4MZU5nAwngEnkDjj2EzEJ5tp3LI+zVK6hhRgNMUEs68T7gh8I8ex/OOwKjM7x4pBSPIZNrCiuQelPQUZyZbc+8GnzlQaQVbnDqSXghXYMf32YsZvnp+NJqK45ZQwVcS9Jf71Wf4eta1GmAnLFXx+iT6SDF35hSBMhowjbYZOuHqJqDk6Z03Rymh8qUQHQ0+2T6LHlfvc02T/qQivOj6JZCP257nBLvaCnm1ahgIzKMiJ19lOAoa4hBoh2yHd6+WTOc+x/AjlHCDvuxIjPwYuwkaCTlRS+Wpe//IsJ8A==
   - secure: CU+UsyyhNCLjtal7BGGRKJmhTrb8F5Ohr32ibSoAR9uAkYKQgMD2RbJU+UxoqZ7P7Mo6d4qly8tET8eA61xYuQp/Zmjy6MAme/gv2UvrqSwxZusaE/P9uLjYKV9PSXnml0FgWA1j9MjCfgnN0gixPLe9wSfX1AzZbjaiU0DYscTNSHe1QIX+fMcTIIW+VO9oDDQbk9CULKgcgyZkKMiQY5Ra86gMvxfZuO/rwj+XRf9JTYN5DE8kotu/7xb+Z6fCRTz95yp3vZ4exFM2mHO/VSmM5bMGxy7kDdHYDwe78i5gtODOWajkoUM2ti4UzMnoOGi3ScALji/9iVBQwc24GA==
+
 install:
   - pip install -r requirements.txt
 
