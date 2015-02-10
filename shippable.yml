@@ -1,8 +1,10 @@
 language: python
 
 
+
 python:
   - 2.7
+
 
 # Mongo binds to 127.0.0.1 by default
 services:
@@ -15,6 +17,7 @@ env:
 install:
   - pip install -r requirements.txt
 
+#test
 # Make folders for the reports
 before_script:
   - mkdir -p shippable/testresults
