@@ -9,7 +9,6 @@ python:
 services:
   - mongodb
 
-
 env:
  global:
   - secure: GO7SuUcHjRrGy2mE2OJ6RxaM0faUUtqsVqgsRHf3LUgS3YO4MZU5nAwngEnkDjj2EzEJ5tp3LI+zVK6hhRgNMUEs68T7gh8I8ex/OOwKjM7x4pBSPIZNrCiuQelPQUZyZbc+8GnzlQaQVbnDqSXghXYMf32YsZvnp+NJqK45ZQwVcS9Jf71Wf4eta1GmAnLFXx+iT6SDF35hSBMhowjbYZOuHqJqDk6Z03Rymh8qUQHQ0+2T6LHlfvc02T/qQivOj6JZCP257nBLvaCnm1ahgIzKMiJ19lOAoa4hBoh2yHd6+WTOc+x/AjlHCDvuxIjPwYuwkaCTlRS+Wpe//IsJ8A==
@@ -32,3 +31,5 @@ script:
   
 notifications:
   email: false
+
+archive: true
