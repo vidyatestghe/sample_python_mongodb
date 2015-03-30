@@ -28,6 +28,10 @@ script:
   - echo $var and $name 
   
 notifications:
-  email: false
+  irc:
+   channels:
+     - "chat.freenode.net#test-irc"
+     - "chat.freenode.net#testing2"
+  
 
 archive: true
