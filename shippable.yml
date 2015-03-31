@@ -26,9 +26,11 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $var and $name 
+ 
   
 notifications:
   irc:
+   pull_requests: true
    channels:
      - "chat.freenode.net#test-irc"
      - "chat.freenode.net#testing2"
