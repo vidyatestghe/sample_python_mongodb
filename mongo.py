@@ -12,8 +12,8 @@ class Mongo():
             {"name": "Vishnu"},
             {"name": "Lakshmi"},
             {"name": "Ganesha"},
-            {"name": "Krishna"},
-            {"name": "Murugan"}
+            {"name": "Krishna"}
+            #{"name": "Murugan"}
         ]
         self.db.things.insert(things)
 
