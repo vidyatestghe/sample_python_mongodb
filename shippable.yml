@@ -3,7 +3,6 @@ language: python
 python:
   - 2.7
 
-
 # Mongo binds to 127.0.0.1 by default
 services:
   - mongodb
@@ -28,8 +27,9 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $var and $name 
- 
-  
+
+
+
 notifications:
   irc:
    pull_requests: true
