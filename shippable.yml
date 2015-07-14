@@ -31,6 +31,12 @@ script:
 
 
 notifications:
+  email:
+     recipients:
+        - vidya@shippable.com
+        - exampletwo@org.com
+     on_success: change
+     on_failure: always
   irc:
    pull_requests: true
    channels:
