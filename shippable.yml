@@ -44,5 +44,4 @@ notifications:
      - "chat.freenode.net#test-irc"
      - "chat.freenode.net#testing2"
   
-
 archive: true
