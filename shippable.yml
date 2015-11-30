@@ -8,7 +8,6 @@ python:
 services:
   - mongodb
 
-
 env:
  global:
   - secure: OTC2mN69MnGG00gFrv7V10/4KDKcmBDl3gZFihUyStWtslAg/hu6sNieRMIxvmiRw4oIav1npsTHuIawhGAqWaF6pJiWOPJ8WFAhjflx6yQ5e+LCZAkTKHR/H3IhNGjG+mOyTcx6I0eMOUVrvYskpc0Ig6KrUQpVW2gJ7ucN8GXtoQfuZVoRXBI93a1Exmd//MnshXgS+cxhFLCVEvgTpod77Gao/18FJbGoqaDnzd2Dq3N4ZufLwZ5s4q6TAnb6uRjMcddfsPZNwnU8WDNrBfUbzbzckduX+efpV56KOrs7uEkE38+Mp1NLFF/Ow3ourQZyWnZImli3P/EBJHqnZw==
