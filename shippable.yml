@@ -33,4 +33,4 @@ after_script:
 archive: true
 #cache: true 
 
-#build_image: shippable/minv2:beta
+build_image: drydock/u14pytpls:prod
