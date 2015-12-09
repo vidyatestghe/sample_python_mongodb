@@ -27,8 +27,7 @@ branches:
 after_script:
   - cp README.md ./shippable
 
-after_success:
-  - git push git@heroku.com:sample-python-mongodb.git $BRANCH
+
 
 
 archive: true
